@@ -1023,16 +1023,14 @@ pre .javascript .function {
   }
 }
 .brand {
-  background: #222;
+  background: #ececec;
   border-bottom: none;
-  color: #fff;
+  color: #222;
   display: inline-block;
   line-height: 1.375em;
-  padding: 0 40px;
+  padding: 0 20px;
   position: relative;
-}
-.brand:hover {
-  color: #fff;
+  border-radius: 5px;
 }
 .logo {
   display: inline-block;
@@ -1682,7 +1680,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #85ff28;
+  background: #738113;
   border-radius: 50%;
   content: ' ';
   display: inline-block;

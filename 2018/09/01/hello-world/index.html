@@ -55,32 +55,35 @@
   };
 </script>
 
-  <meta name="description" content="record technology stack">
+  <meta name="description" content="一、简介 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。 基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言 二、标题 在想要设置为标题的文字前面加#来表示。 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。">
 <meta name="keywords" content="javascript,html5,css3,vue,node.js">
-<meta property="og:type" content="website">
-<meta property="og:title" content="leexinfast">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown基本语法">
+<meta property="og:url" content="http://yoursite.com/2018/09/01/hello-world/index.html">
 <meta property="og:site_name" content="leexinfast">
-<meta property="og:description" content="record technology stack">
+<meta property="og:description" content="一、简介 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。 基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言 二、标题 在想要设置为标题的文字前面加#来表示。 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://s2.ax1x.com/2019/11/23/MbgdRP.png">
+<meta property="og:updated_time" content="2019-11-23T09:18:49.763Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="leexinfast">
-<meta name="twitter:description" content="record technology stack">
-  <link rel="canonical" href="http://yoursite.com/">
+<meta name="twitter:title" content="Markdown基本语法">
+<meta name="twitter:description" content="一、简介 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。 基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言 二、标题 在想要设置为标题的文字前面加#来表示。 一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。">
+<meta name="twitter:image" content="https://s2.ax1x.com/2019/11/23/MbgdRP.png">
+  <link rel="canonical" href="http://yoursite.com/2018/09/01/hello-world/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>leexinfast</title>
+  <title>Markdown基本语法 | leexinfast</title>
   
 
 
@@ -188,218 +191,13 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
+
   <div id="posts" class="posts-expand">
-        <article itemscope itemtype="http://schema.org/Article">
+      <article itemscope itemtype="http://schema.org/Article">
   
   
   
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/23/前端跨页面通信，你知道哪些方法？/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="leeyasuo@foxmail.com">
-      <meta itemprop="description" content="record technology stack">
-      <meta itemprop="image" content="/images/leeyasuo.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="leexinfast">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/11/23/前端跨页面通信，你知道哪些方法？/" class="post-title-link" itemprop="url">前端跨页面通信，你知道哪些方法？</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              
-                
-              
-
-              <time title="Created: 2019-11-23 15:35:00 / Modified: 17:07:26" itemprop="dateCreated datePublished" datetime="2019-11-23T15:35:00+08:00">2019-11-23</time>
-            </span>
-          
-            
-
-            
-          
-
-          
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              
-              <span>109</span>
-            </span>
-          
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              
-              <span>1 mins.</span>
-            </span>
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h5 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h5><h6 id="在浏览器中，我们可以同时打开多个Tab页，每个Tab页可以粗略理解为一个“独立”的运行环境，即使是全局对象也不会在多个Tab间共享。然而有些时候，我们希望能在这些“独立”的Tab页面之间同步页面的数据、信息或状态。"><a href="#在浏览器中，我们可以同时打开多个Tab页，每个Tab页可以粗略理解为一个“独立”的运行环境，即使是全局对象也不会在多个Tab间共享。然而有些时候，我们希望能在这些“独立”的Tab页面之间同步页面的数据、信息或状态。" class="headerlink" title="在浏览器中，我们可以同时打开多个Tab页，每个Tab页可以粗略理解为一个“独立”的运行环境，即使是全局对象也不会在多个Tab间共享。然而有些时候，我们希望能在这些“独立”的Tab页面之间同步页面的数据、信息或状态。"></a>在浏览器中，我们可以同时打开多个Tab页，每个Tab页可以粗略理解为一个“独立”的运行环境，即使是全局对象也不会在多个Tab间共享。然而有些时候，我们希望能在这些“独立”的Tab页面之间同步页面的数据、信息或状态。</h6>
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/16/如何在NPM发布自己的包/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="leeyasuo@foxmail.com">
-      <meta itemprop="description" content="record technology stack">
-      <meta itemprop="image" content="/images/leeyasuo.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="leexinfast">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2019/07/16/如何在NPM发布自己的包/" class="post-title-link" itemprop="url">如何在NPM发布自己的包</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              
-                
-              
-
-              <time title="Created: 2019-07-16 13:18:00" itemprop="dateCreated datePublished" datetime="2019-07-16T13:18:00+08:00">2019-07-16</time>
-            </span>
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-23 17:05:11" itemprop="dateModified" datetime="2019-11-23T17:05:11+08:00">2019-11-23</time>
-              </span>
-            
-          
-
-          
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              
-              <span>240</span>
-            </span>
-          
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              
-              <span>1 mins.</span>
-            </span>
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h4 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h4><pre><code>https://www.npmjs.com/signup 到该网站注册一个自己的npm账号</code></pre><h4 id="对包-package-json-的要求"><a href="#对包-package-json-的要求" class="headerlink" title="对包 package.json 的要求"></a>对包 package.json 的要求</h4><pre><code>{
-  &quot;name&quot;: &quot;npm-test&quot;,
-  &quot;version&quot;: &quot;0.0.1&quot;
-}</code></pre>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/07/16/如何在NPM发布自己的包/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-        <article itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block home">
+  <div class="post-block post">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/01/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -412,9 +210,8 @@
       <meta itemprop="name" content="leexinfast">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2018/09/01/hello-world/" class="post-title-link" itemprop="url">Markdown基本语法</a>
+        <h1 class="post-title" itemprop="name headline">Markdown基本语法
+
           
         </h1>
 
@@ -477,47 +274,151 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h5 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h5><ol>
+        <h5 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h5><ol>
 <li>Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</li>
 <li>基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言</li>
 </ol><h5 id="二、标题"><a href="#二、标题" class="headerlink" title="二、标题"></a>二、标题</h5><ol>
 <li>在想要设置为标题的文字前面加#来表示。</li>
 <li>一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</li>
+</ol><a id="more"></a>
+
+<h5 id="三、字体"><a href="#三、字体" class="headerlink" title="三、字体"></a>三、字体</h5><ol>
+<li><p><strong>加粗</strong> 要加粗的文字左右分别用两个*号包起来</p>
+</li>
+<li><p><em>斜体</em> 要倾斜的文字左右分别用一个*号包起来</p>
+</li>
+<li><p><strong><em>斜体加粗</em></strong> 要倾斜和加粗的文字左右分别用三个*号包起来</p>
+</li>
+<li><p><del>删除线</del> 要加删除线的文字左右分别用两个~~号包起来</p>
+</li>
 </ol>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2018/09/01/hello-world/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
+<h5 id="四、引用"><a href="#四、引用" class="headerlink" title="四、引用"></a>四、引用</h5><ol>
+<li>在引用的文字前加&gt;即可。</li>
+<li>引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;n个…应该可以一直加下去，虽然没啥用。</li>
+</ol>
+<h5 id="五、分割线"><a href="#五、分割线" class="headerlink" title="五、分割线"></a>五、分割线</h5><ol>
+<li>三个或者三个以上的 - 或者 * 都可以。</li>
+</ol>
+<h5 id="六、图片"><a href="#六、图片" class="headerlink" title="六、图片"></a>六、图片</h5><pre><code>语法：![图片alt](图片地址 &apos;&apos;图片title&apos;&apos;)</code></pre><ol>
+<li>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。</li>
+<li>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</li>
+</ol>
+<p><img src="https://s2.ax1x.com/2019/11/23/MbgdRP.png" alt="MbgdRP.png"></p>
+<h5 id="七、超链接"><a href="#七、超链接" class="headerlink" title="七、超链接"></a>七、超链接</h5><pre><code>语法：[超链接名](超链接地址 &quot;超链接title&quot;)；title可加可不加</code></pre><p><a href="https://google.com" target="_blank" rel="noopener">谷歌</a></p>
+<h5 id="八、列表"><a href="#八、列表" class="headerlink" title="八、列表"></a>八、列表</h5><ul>
+<li><p>无序列表</p>
+<pre><code>语法：无序列表用 - + * 任何一种都可以；注意：- + * 跟内容之间都要有一个空格</code></pre><p>效果：</p>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+<ul>
+<li>列表内容</li>
+</ul>
+</li>
+<li><p>有序列表</p>
+<pre><code>语法：数字加点；注意：序号跟内容之间要有空格</code></pre><p>效果：</p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+</li>
+</ul>
+<h5 id="九、表格"><a href="#九、表格" class="headerlink" title="九、表格"></a>九、表格</h5><pre><code>语法:
+1. 表头|表头|表头
+2. ---|:--:|---:
+3. 内容|内容|内容
+4. 内容|内容|内容
+5. 第二行分割表头和内容。
+6. - 有一个就行，为了对齐，多加了几个
+7. 文字默认居左
+8. -两边加：表示文字居中
+9. -右边加：表示文字居右
+10. 注：原生的语法两边都要用 | 包起来。此处省略</code></pre><p>效果：</p>
+<table>
+<thead>
+<tr>
+<th>英雄</th>
+<th align="center">职业</th>
+<th align="right">难度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>亚索</td>
+<td align="center">中单</td>
+<td align="right">秀</td>
+</tr>
+<tr>
+<td>盲僧</td>
+<td align="center">打野</td>
+<td align="right">中</td>
+</tr>
+<tr>
+<td>薇恩</td>
+<td align="center">ADC</td>
+<td align="right">难</td>
+</tr>
+</tbody></table>
+<h5 id="十、代码"><a href="#十、代码" class="headerlink" title="十、代码"></a>十、代码</h5><ol>
+<li><p>单行代码：代码之间分别用一个反引号包起来</p>
+<pre><code>`代码内容`</code></pre></li>
+<li><p>代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p>
+<pre><code>1.  (<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">      2.  代码...</span><br><span class="line">      3.  代码...</span><br><span class="line">      4.  代码...</span><br><span class="line">      5.  (```)</span><br><span class="line">      </span><br><span class="line">注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</span><br><span class="line"></span><br><span class="line">效果：</span><br></pre></td></tr></table></figure></code></pre><p>function init(){<br>  console.log “面对疾风吧”;<br>}</p>
+<p>```</p>
+</li>
+</ol>
+
     </div>
 
     
     
     
+        
+      
+
       <footer class="post-footer">
-          <div class="post-eof"></div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2019/07/16/如何在NPM发布自己的包/" rel="prev" title="如何在NPM发布自己的包">
+                  如何在NPM发布自己的包 <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
         
       </footer>
+    
   </div>
   
   
   
   </article>
 
-    
   </div>
-
-  
 
 
           </div>
           
+    
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80NjY3Ni8yMzE4Ng=="></div>
+  </div>
+  
+  
 
         </div>
           
@@ -532,6 +433,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -544,6 +450,8 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#一、简介"><span class="nav-number">1.</span> <span class="nav-text">一、简介</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#二、标题"><span class="nav-number">2.</span> <span class="nav-text">二、标题</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#三、字体"><span class="nav-number">3.</span> <span class="nav-text">三、字体</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#四、引用"><span class="nav-number">4.</span> <span class="nav-text">四、引用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#五、分割线"><span class="nav-number">5.</span> <span class="nav-text">五、分割线</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#六、图片"><span class="nav-number">6.</span> <span class="nav-text">六、图片</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#七、超链接"><span class="nav-number">7.</span> <span class="nav-text">七、超链接</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#八、列表"><span class="nav-number">8.</span> <span class="nav-text">八、列表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#九、表格"><span class="nav-number">9.</span> <span class="nav-text">九、表格</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#十、代码"><span class="nav-number">10.</span> <span class="nav-text">十、代码</span></a></li></ol></div>
+        
       </div>
       <!--/noindex-->
 
@@ -697,6 +605,19 @@
 
   
 
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
 
 
   
